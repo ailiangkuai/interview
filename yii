@@ -1,0 +1,10 @@
+<?php
+define('THIS_PATH', __DIR__);
+
+require(THIS_PATH . '/env.php');
+
+require(VENDOR_PATH .'/autoload.php');
+
+$config = require(APP_PATH . '/configs/console/console.php');
+
+(new \application\console\Application($config))->run();

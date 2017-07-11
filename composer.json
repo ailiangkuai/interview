@@ -1,0 +1,27 @@
+{
+    "name": "yaoyongfeng/interview",
+    "type": "project",
+    "require": {
+        "yiisoft/yii2": "2.0.11"
+    },
+    "authors": [
+        {
+            "name": "ai凉快",
+            "email": "ailiangkuai@qq.com"
+        }
+    ],
+    "autoload" : {
+        "files" : [
+            "vendor/yiisoft/yii2/Yii.php"
+        ],
+        "psr-4" : {
+            "application\\": "app"
+        }
+    },
+    "extra" : {
+        "asset-installer-paths" : {
+            "npm-asset-library" : "vendor/npm",
+            "bower-asset-library" : "vendor/bower"
+        }
+    }
+}
